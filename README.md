@@ -15,9 +15,9 @@
 - Multi user login and access
 - Run and control headless clients on remote machines
 
-### Fork bonus feature
+### Fork bonus features
 
-- List and accept friends requests
+- List and accept friend requests
 
 ## Installation
 
