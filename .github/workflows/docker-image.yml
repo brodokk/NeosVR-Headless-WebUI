@@ -2,7 +2,7 @@ name: Docker Image
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "release" ]
 
 jobs:
   build-push:
@@ -20,4 +20,4 @@ jobs:
         uses: docker/build-push-action@v3.0.0
         with:
           push: true
-          tags: ghcr.io/glitchfur/neosvr-headless-webui:latest
+          tags: ghcr.io/brodokk/neosvr-headless-webui:latest
